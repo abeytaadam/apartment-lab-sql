@@ -9,7 +9,9 @@
 
 4. Add three owners: Donald (age 56), Elaine (age 24), and Emma (age 36).
 	INSERT INTO owners
-	(name, age)VALUES                                          ('Donald', 56),
+	(name, age)
+	VALUES
+	('Donald', 56),
 	('Elaine', 24),
 	('Emma', 36);
 
@@ -34,11 +36,15 @@
 
 10. Add an owner named John who is 33 years old.
 	INSERT INTO owners 
-	(name, age)                                                                     VALUES                                                          ('John', 33)
+	(name, age)
+	VALUES
+	('John', 33)
 
 11. Add an owner named Jane who is 43 years old.
 INSERT INTO owners 
-	(name, age)                                     VALUES                                          ('Jane', 43)
+	(name, age)
+	VALUES
+	('Jane', 43)
 
 12. Change Jane's age to 30.
 	UPDATE owners
