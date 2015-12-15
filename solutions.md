@@ -52,7 +52,7 @@
 
 11. Add an owner named Jane who is 43 years old.  
 
-INSERT INTO owners 
+	INSERT INTO owners 
 	(name, age)
 	VALUES
 	('Jane', 43)
